@@ -1,0 +1,65 @@
+
+ h1{
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(31, 7, 95);
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h1:hover{
+    color: brown;
+}
+h3{
+    text-align: center;
+}
+h3 p{
+    text-align: center;
+    padding-top: 6rem;
+    color: rgb(40, 1, 71);
+    font-size: 1.5rem;
+}
+h3 p:hover{
+    color:crimson;
+}
+
+.services h1{
+    padding-top: 10rem;
+    text-align: center;
+    text-decoration: solid;
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .services .box-container{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(5rem, 1fr));
+    gap: 1cm;
+  }
+  
+  .services .box-container .box{
+    padding:3rem 2rem;
+    text-align: center;
+    background: pink;
+    cursor: pointer;
+    border-radius: 2rem;
+    border: 2cm;
+  }
+  
+  .services .box-container .box:hover{
+    background: rgb(216, 149, 216);
+    
+  }
+  
+  .services .box-container .box img{
+    height: 5rem;
+  }
+  
+  .services .box-container .box h3{
+    color:rgb(41, 1, 41);
+    font-size: 1.7rem;
+    padding-top: 1rem;
+  }
+  .services .box-container .box h3:hover{
+    color:rgb(1, 46, 46)
+  }
